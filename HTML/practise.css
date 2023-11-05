@@ -1,0 +1,46 @@
+.search{
+  overflow: hidden;
+  background-color: black;
+}
+.search input[type=text]{
+  float : center;
+  padding:10px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a{
+  text-decoration: aqua;
+  color: white;
+  text-align: center;
+  padding: 30px;
+
+}
+nav a:hover{
+  color: aquamarine;
+}
+nav{
+  background-color: black;
+}
+ul{
+    list-style-type:square;
+  margin: 0;
+  padding: 0;
+}
+.card{
+  color: var(--clr-neutral-100);
+  background-image: url(img/wp4766596-4k-vintage-car-wallpapers.jpg);
+  background-size: cover;
+  padding :10rem 0 0;
+  max-width : 40ch;
+  float: center;
+}
+.card-content{
+  padding: 1.5em;
+  background: hsl(0 0% 0% /0.5);
+
+}

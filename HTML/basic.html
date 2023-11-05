@@ -1,0 +1,176 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>007site</title> 
+    <link rel="stylesheet" href="basic.css">
+    <!--for slide show-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--for footer tag-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+<body>
+    <div id="title">
+        <h1 align = "center">JAMES BOND 007</h1>
+    </div>
+    <img id="logo" src="img/JamesBondLogo.png" alt="logo">
+    <!--<img align="center"id="flag" src="img/british.png" alt="flag">-->
+    <img id="entry" src="img/bond_entry.jpg" alt="entry">
+    <br>
+    <nav>
+        <a class="refresh" href="http://127.0.0.1:5500/HTML/basic.html"><img src="data:image/png;base64,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" title="create account icons" alt="refresh page" color="white"></a>
+        <a href="#">SIGNUP</a><a href="##">LOG-IN</a>
+    </nav>
+    <!--class slideshow division container from bootstrap-->
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://images.spot.im/v1/production/exnqxknwyau20kevujzk" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://see.news/wp-content/uploads/2021/09/120821-%D8%B9%D9%85%D9%84%D8%A7%D8%A1-%D8%AC%D9%8A%D9%85%D8%B3-%D8%A8%D9%88%D9%86%D8%AF-%D8%A8%D8%B1%D9%81%D9%82%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D8%B2%D8%A7%D8%A8%D9%8A%D8%AB.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR93eWU4PNy_F8hlz7k8Yg_08sXuok161cIGw&usqp=CAU" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <br>
+    <!--<div class="james">
+        <table> 
+            <thead>
+                <tr height="50px">
+                    <th width="70px"></th>
+                    <th>
+                        <b><a  href="dummy" >JAMES BOND MOVIES</a></b></h1>
+                    </th>
+                    <th width="70px"></th>
+                    <th>    
+                        <b><a href="practise.html">JAMES BOND STORE</a></b></h1>
+                    </th>
+                    <th width="70px"></th>
+                    <th>
+                        <b><a href="jamesbondmovies">CREW & CAST</a></b>
+                    </th>
+                    <th width="70px"></th>
+                    <th>
+                        <b><a href="jamesbondmovies">BOOK COLLECTIONS</a></b></h1>
+                    </th>
+                    <th width="70px"></th>
+                    <th>
+                        <input type = "text" placeholder="search here">
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </div>-->
+    <br>
+    <nav class = "nav">
+        <ul>
+            <li><b><a width = 10px target="_blank" href="dummy" >JAMES BOND MOVIES</a></b></li>
+            <li><b><a width = 10px target="_blank" href="dummy" >CREW</a></b></li>
+            <li><b><a width = 10px target="_blank" href="dummy" >BOOK COLLECTIONS</a></b></li>
+            <li><b><a width = 10px target="_blank" href="dummy" >JAMES BOND STORE</a></b></li>
+            <li><a   ></a></li>
+            <li><input width = 10px type = "text" placeholder="search here"></li>
+        </ul>
+    </nav>
+
+    <br>
+    <div class = "bondcar">
+    <img  class="bond"src="img/wp4766596-4k-vintage-car-wallpapers.jpg" alt="car" >
+    <img  class = "car"src="img/james bond.jpg" alt="james bond photo" height=600px width:600px align="right">
+    <br>
+    </div>
+    <br>
+    <div class="card">
+        <img  class = "allbonds"src="https://imgs.smoothradio.com/images/247584?crop=16_9&width=660&relax=1&signature=vfwNRCagl_wVWmRe_FDP-cMOuxg=" alt="bonds" width=100%>
+        <br>
+        <pre ><h1><b>             SEAN              DAVID             ROBERT           GEORGE            PIERCE              DANIEL 
+            CONNERY      NIVEN             MOORGE          LAZENBY          BRONSON        CRAIG</b></h1> </pre>
+    </div>
+    
+    <br>
+    
+    <br>
+    <div class="footer">
+        <footer>
+            <div class="container">
+                <div class = "row">
+                    <div class="1st item">
+                        <h1>CUSTOMER SERVICE</h1>
+                        <ul>
+                            <li></li>
+                            <li><a href="##">CONTACT US</a></li>
+                            <li><a href="##">SHIPPING & DELIVERY</a></li>
+                            <li><a href="##">RETURNS & EXCHANGES</a></li>
+                            <li><a href="##">007 HISTORY</a></li>
+                            <li><a href="##">FAQs</a></li>
+                            <li><a href="##">TERMS AND CONDITIONS</a></li>
+                            <li><a href="##">PRIVACY AND COOKIE POLICY</a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+
+                    <div class="text item">
+                        <h1>OFFICIAL 007 STORE</h1>
+                        <p style="color:white">In celebration of .Inspired by.as seen in <br>
+                             .007store.com is online emporiumfeaturing  <br>
+                             product inspired  by  the James bond film  <br>
+                             series , including legacy legagacy pieces <br>
+                             .Discover our James bond mercendise,ready <br>
+                             to wear,movies,collections and more</p> <br>
+                    </div>
+                    <div></div>
+
+                </div>
+                <p class="copyright">JAMES BOND MERCHENDISE © 2022</p>
+            </div>
+        </footer>
+    </div>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <!--<ul class="1st">
+            <li><b>CONTACT US</b></li>
+            <li><b>SHIPPING & DELIVERY</b></li>
+            <li><b>RETURNS & EXCHANGE</b></li>
+            <li><b>007 STORE INFO</b></li>
+            <li><b>FAQs</b></li>
+            <li><b>TERMS AND CONDITIONS</b></li>
+            <li><b>COMPLAINTS</b></li>
+            <li><b>PRIVACY & COOKIE POLICY</b></li>
+        </ul>
+        <ul class="2st">
+            <li><b>CONTACT US</b></li>
+            <li><b>SHIPPING & DELIVERY</b></li>
+            <li><b>RETURNS & EXCHANGE</b></li>
+            <li><b>007 STORE INFO</b></li>
+            <li><b>FAQs</b></li>
+            <li><b>TERMS AND CONDITIONS</b></li>
+            <li><b>COMPLAINTS</b></li>
+            <li><b>PRIVACY & COOKIE POLICY</b></li>
+        </ul>-->
+    
+</body>
+</html>
